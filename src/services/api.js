@@ -1,4 +1,4 @@
-const API_KEY = "f2a883eda2d6556694947872dd17dd75";
+const API_KEY = "XXXXXXXXXXXXXXXXX"; // replace with your own API key
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // Fetches popular movies from 5 pages (100 movies total)
