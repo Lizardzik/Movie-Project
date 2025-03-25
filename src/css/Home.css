@@ -1,0 +1,54 @@
+/* Home Filter */
+.home-filter {
+  display: flex;
+  gap: 20px;
+  padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 639px) {
+  .home {
+    padding: 1rem 0;
+  }
+
+  .search-form {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Movies Grid */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Home Filter Section */
+.home-filter-section {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Error Message */
+.error-message {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+/* Main Section */
+.main-section {
+  flex: 1;
+}
